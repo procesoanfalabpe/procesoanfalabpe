@@ -1,0 +1,71 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 40px;
+  color: #333;
+}
+header {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+header img {
+  width: 100%; 
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+header h1 {
+  margin: 10px 0 5px;
+  font-size: 2em;
+}
+header h2 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #777;
+}
+.order-info {
+  margin: 30px 0;
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+.order-info strong {
+  font-weight: bold;
+}
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 30px 0;
+}
+.exams {
+  font-size: 0.9em;
+  line-height: 1.4;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  font-size: 0.9em;  
+  font-weight: normal; 
+  margin: 0;         
+  padding: 0; 
+}
+.exams h3 {
+  margin-bottom: 10px;
+}
+.exams ol {
+  padding-left: 20px;
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  padding-left: 0; 
+}
+.exams ol li {
+  counter-increment: item;
+  margin-bottom: 0.5em; 
+}
+
+.exams ol li::before {
+  content: counter(item) ") ";
+  font-weight: normal;
+}
